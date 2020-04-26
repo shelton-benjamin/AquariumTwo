@@ -1,5 +1,7 @@
 package book
 
+
+
 open class Book(val title: String, val author: String) {
 
     private var currentPage = 1
@@ -17,3 +19,4 @@ class eBook(title: String, author: String, var format: String = "text") : Book(t
         wordsRead += 250
     }
 }
+
