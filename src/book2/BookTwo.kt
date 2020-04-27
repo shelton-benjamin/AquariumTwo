@@ -28,6 +28,8 @@ class Book(val title: String, val author: String, val year: Int) {
     companion object {
         val BASE_URL = "http://www.turtlecare.net/"
     }
+
+    val pages : Int? = 0
 }
 
 const val MAX_NUMBER_BOOKS = 20
