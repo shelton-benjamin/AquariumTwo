@@ -42,11 +42,11 @@ class Game() {
     }
 
     fun makeMove(command: String?) {
-       when {
-           command.equals("n") -> move (north)
-           command.equals("s") ->  move(south)
-           command.equals("e") ->  move(east)
-           command.equals("w") ->  move(west)
+       when (command) {
+           "n" -> move (north)
+           "s" ->  move(south)
+           "e" ->  move(east)
+           "w" ->  move(west)
            else -> move(end)
        }
     }
